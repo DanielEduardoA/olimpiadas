@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Olimpíadas Tóquio 2020</title>
+    <meta name="description" content="Olimpíadas Tóquio 2020">
+    <meta name="keywords" content="Olimpíadas, Tóquio, 2020">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"/>
+    <link rel="icon" type="image/png" href="imagens/favicon-32x32.png" sizes="32x32"/>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="scripts/funcoes.js" type="text/javascript"></script>
+	<script src="scripts/jquery.cycle.lite.js" type="text/javascript"></script>
+	<script src="scripts/jquery.opacityrollover.js" type="text/javascript"></script>
+    <script src="scripts/thumbsOver.js" type="text/javascript"></script>
+    <script src="scripts/exibirConteudoModalidades.js" type="text/javascript" charset="ISO-8859"></script>
+</head>
+<body>
+	<div class="conteudo">
+		<div class="menu-conteudo">
+			<button class="btn-menu"><i class="fas fa-bars fa-lg"></i></button>
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="historia.html">História</a></li>
+					<li><a href="cidades.html">Cidades</a></li>
+					<li><a href="#" class="atual">Modalidades</a></li>
+					<li><a href="mascotes.html">Mascotes</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+    <div class="principal conteudo">
+		<div id="thumbs" class="navigation">
+			<ul class="thumbs noscript">
+				<li>
+					<a class="thumb" name="leaf" title="Surf" onclick="exibir('01');">
+						<img src="imagens/modalidades/surf.jpg" alt="Surf" />
+					</a>
+				</li>
+				<li>
+					<a class="thumb" name="leaf" title="Escalada" onclick="exibir('02');">
+						<img src="imagens/modalidades/escalada.jpg" alt="Escalada"  />
+					</a>
+				</li>
+				<li>
+					<a class="thumb" name="leaf" title="Skate" onclick="exibir('03');">
+						<img src="imagens/modalidades/skate.jpg" alt="Skate" />
+					</a>
+				</li>
+				<li>
+					<a class="thumb" name="leaf" title="Baseball" onclick="exibir('04');">
+						<img src="imagens/modalidades/baseball.jpg" alt="Baseball" />
+					</a>
+				</li>
+				<li>
+					<a class="thumb" name="leaf" title="Basquete 3x3" onclick="exibir('05');">
+						<img src="imagens/modalidades/basquete.jpeg" alt="Basquete 3x3" />
+					</a>
+				</li>
+				<li>
+					<a class="thumb" name="leaf" title="BMX Freestyle" onclick="exibir('06');">
+						<img src="imagens/modalidades/bmx.jpg" alt="BMX Freestyle" />
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+		<div style="clear: both;">&nbsp;</div>
+		
+        <div class="corpo">
+            <div id="conteudo_modalidades"></div>				
+        </div>
+		
+    </div>
+
+	<div class="social conteudo">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/olympics" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/olympics" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/tokyo2020" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>  
+    </div>
+
+    <div class="rodape"></div>
+
+</body>
