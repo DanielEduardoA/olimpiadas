@@ -15,7 +15,7 @@ function exibir(conteudo) {
             h3Text = document.createTextNode('Miratowa');
             h3.appendChild(h3Text);
             mascotes.appendChild(h3);
-            pText = document.createTextNode('O mascote das OlimpÌadas de TÛquio Miraitowa segue a cartela de cores e formas do emblema. Seu nome È formado pelas palavras japonesas Mirai (futuro) e Towa (eternidade), que representa o desejo de um futuro cheio de esperanÁa nos coraÁıes de todas as pessoas do mundo');
+            pText = document.createTextNode('O mascote das Olimp√≠adas de T√≥quio Miraitowa segue a cartela de cores e formas do emblema. Seu nome √© formado pelas palavras japonesas Mirai (futuro) e Towa (eternidade), que representa o desejo de um futuro cheio de esperan√ßa nos cora√ß√µes de todas as pessoas do mundo');
             p.appendChild(pText);
             mascotes.appendChild(p);
 			iframe.setAttribute("src", "https://www.youtube.com/embed/ixE1a6_l7e4");
@@ -31,7 +31,7 @@ function exibir(conteudo) {
             h3Text = document.createTextNode('Someity');
             h3.appendChild(h3Text);
             mascotes.appendChild(h3);
-            pText = document.createTextNode('J· a mascote das ParalimpÌadas de TÛquio È Someity, criatura inspirada nas tradicionais flores de cerejeira do Jap„o e que tem um incrÌvel poder mental e forÁa fÌsica, simbolizando a superaÁ„o de obst·culos dos paratletas. Seu nome È baseado na junÁ„o de Someiyoshino (espÈcie de flor de cerejeira) com o termo ìso mightî.');
+            pText = document.createTextNode('J√° a mascote das Paralimp√≠adas de T√≥quio √© Someity, criatura inspirada nas tradicionais flores de cerejeira do Jap√£o e que tem um incr√≠vel poder mental e for√ßa f√≠sica, simbolizando a supera√ß√£o de obst√°culos dos paratletas. Seu nome √© baseado na jun√ß√£o de Someiyoshino (esp√©cie de flor de cerejeira) com o termo "so might".');
             p.appendChild(pText);
             mascotes.appendChild(p);
 			
