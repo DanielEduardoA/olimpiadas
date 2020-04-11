@@ -15,7 +15,7 @@ function exibir(conteudo) {
             h3Text = document.createTextNode('Miratowa');
             h3.appendChild(h3Text);
             mascotes.appendChild(h3);
-            pText = document.createTextNode('O mascote das Olimpíadas de Tóquio Miraitowa segue a cartela de cores e formas do emblema. Seu nome é formado pelas palavras japonesas Mirai (futuro) e Towa (eternidade), que representa o desejo de um futuro cheio de esperança nos corações de todas as pessoas do mundo');
+            pText = document.createTextNode('O mascote das Olimpíadas de Tóquio Miraitowa segue a cartela de cores e formas do emblema. Seu nome é formado pelas palavras japonesas Mirai (futuro) e Towa (eternidade), que representa o desejo de um futuro cheio de esperança nos corações de todas as pessoas do mundo.');
             p.appendChild(pText);
             mascotes.appendChild(p);
 			iframe.setAttribute("src", "https://www.youtube.com/embed/ixE1a6_l7e4");
