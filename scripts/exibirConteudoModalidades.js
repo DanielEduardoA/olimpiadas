@@ -172,11 +172,11 @@ function exibir(conteudo) {
             p3.appendChild(pText);
             modalidades.appendChild(p3);
 			
-            pText = document.createTextNode('Cada entrada (ou inning) acaba quando 3 jogadores são eliminados, por isso o jogo é composto por 9 innings. Se no final dessas 9 innings as equipes continuarem empatadas, a equipe que conseguir se adiantar primeiro nas próximas innings ganha');
+            pText = document.createTextNode('Cada entrada (ou inning) acaba quando 3 jogadores são eliminados, por isso o jogo é composto por 9 innings. Se no final dessas 9 innings as equipes continuarem empatadas, a equipe que conseguir se adiantar primeiro nas próximas innings ganha.');
             p4.appendChild(pText);
             modalidades.appendChild(p4);
 			
-            pText = document.createTextNode('O campo de Beisebol é em forma de quadrado, sendo que a sua posição faz parecer que é um losango (daí ser chamado de diamante)');
+            pText = document.createTextNode('O campo de baseball é em forma de quadrado, sendo que a sua posição faz parecer que é um losango (daí ser chamado de diamante).');
             p5.appendChild(pText);
             modalidades.appendChild(p5);
 			
@@ -188,7 +188,7 @@ function exibir(conteudo) {
 			item1.appendChild(textLi);
 			list1.appendChild(item1);
 			
-			textLi = document.createTextNode('Outfield - por sua vez tem o solo grama, sendo ele a parte após o infield até ao muro e é protegido por mais 3 jogadores, os quais estão sempre atentos aos lançamentos que são longos e altos (flyballs)');
+			textLi = document.createTextNode('Outfield - por sua vez tem o solo grama, sendo ele a parte após o infield até ao muro e é protegido por mais 3 jogadores, os quais estão sempre atentos aos lançamentos que são longos e altos (flyballs).');
 			item2.appendChild(textLi);
 			list1.appendChild(item2);
 			
@@ -207,7 +207,7 @@ function exibir(conteudo) {
             p1.appendChild(pText);
             modalidades.appendChild(p1);
 			
-            pText = document.createTextNode('O primeiro evento teste de 3x3 organizado pela Fiba aconteceu em 2007, durante os Asian Indoor Games, em Macau, na China');
+            pText = document.createTextNode('O primeiro evento teste de 3x3 organizado pela Fiba aconteceu em 2007, durante os Asian Indoor Games, em Macau, na China.');
             p2.appendChild(pText);
             modalidades.appendChild(p2);
 			
@@ -253,7 +253,7 @@ function exibir(conteudo) {
             p3.appendChild(pText);
             modalidades.appendChild(p3);
 			
-			textLi = document.createTextNode('Dirt jump - é praticado em rampas de terra, com alturas e distâncias variadas, podem ser rampas únicas, doubles, ou sequenciais chamadas de trails, ou ate rampas de madeira tipo mesa.');
+			textLi = document.createTextNode('Dirt jump - é praticado em rampas de terra, com alturas e distâncias variadas, podem ser rampas únicas, doubles, ou sequenciais chamadas de trails, ou até rampas de madeira tipo mesa.');
 			item1.appendChild(textLi);
 			list1.appendChild(item1);
 			
